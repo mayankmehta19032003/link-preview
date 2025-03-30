@@ -1,4 +1,4 @@
-import LinkPreviewer from './LinkPreviewer';
+import LinkPreviewer from "./LinkPreviewer.js";
 
 function App() {
   return (
@@ -14,6 +14,10 @@ function App() {
       
       <LinkPreviewer url="https://github.com/mayankmehta19032003/Postify">
       <span className='link'>Github</span>
+      </LinkPreviewer>
+
+      <LinkPreviewer url="https://www.npmjs.com/package/quick-link-preview?activeTab=versions">
+      <span className='link'>npm pacakage</span>
       </LinkPreviewer>
      
     </div>
